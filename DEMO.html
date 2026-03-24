@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Fingerprinting Visualization</title>
+</head>
+<body>
+    <h1>WiFi Fingerprinting Visualization</h1>
+    <div id="controls">
+        <label for="start">Start:</label><input type="number" id="start" />
+        <label for="end">End:</label><input type="number" id="end" />
+        <button onclick="runModel()">Run Model</button>
+    </div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <div id="metrics">
+        <h2>Error Metrics</h2>
+        <p id="rmse">RMSE: </p>
+        <p id="mae">MAE: </p>
+    </div>
+    <script>
+        // Initialization code goes here
+
+        function runModel() {
+            // Model running code goes here that handles RSSI without AP references
+            // Ensure to not include any AP drawing or toggles
+        }
+
+        function draw() {
+            // Drawing logic, but reduced to only represent canvas needs without AP
+        }
+    </script>
+</body>
+</html>
